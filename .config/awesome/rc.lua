@@ -68,6 +68,8 @@ local function run_once(cmd_arr)
     end
 end
 
+awful.util.spawn_with_shell("./.config/i3lock/autolock.sh")
+
 run_once({ "urxvtd", "unclutter -root" }) -- comma-separated entries
 
 -- This function implements the XDG autostart specification
