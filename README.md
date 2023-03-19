@@ -9,6 +9,7 @@
 - ImageMagick: Modify images
 - ranger: File manager CLI
 - vim: Text editor CLI
+- zsh: Z shell
 - \*brave-browser: Secure Browser based on Chromium
 - \*code: Text/Code editor
 
@@ -42,3 +43,15 @@ chmod +x ~/.config/rofi/launchers/type-2/launcher.sh
 cd ..
 rm -rf rofi
 ```
+
+Zsh:
+
+```
+sudo dnf install util-linux-user
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+rm ~/.zshrc.pre-oh-my-zsh
+```
+
+---
+
+> Copy all files
