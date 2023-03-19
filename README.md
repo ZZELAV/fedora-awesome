@@ -52,6 +52,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 rm ~/.zshrc.pre-oh-my-zsh
 ```
 
+i3lock/xautolock:
+
+```
+chmod +x ~/.config/i3lock/*
+```
+
 ---
 
 > Copy all files
