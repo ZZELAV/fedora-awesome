@@ -275,7 +275,7 @@ globalkeys = mytable.join(
               {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
-    awful.key({ altkey, "Control" }, "l", function () os.execute("i3lock -c '#242424'") end,
+    awful.key({ altkey, "Control" }, "l", function () os.execute("./.config/i3lock/lock.sh") end,
               {description = "lock screen", group = "hotkeys"}),
 
     -- Show help
