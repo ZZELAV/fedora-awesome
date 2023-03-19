@@ -1,2 +1,2 @@
 #!/bin/bash
-exec xautolock -detectsleep -time 1 -locker "i3lock -c '#242424'"
+exec xautolock -detectsleep -time 5 -locker "i3lock -c '#242424'"
