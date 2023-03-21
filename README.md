@@ -10,7 +10,7 @@
 - ranger: File manager CLI
 - vim: Text editor CLI
 - zsh: Z shell
-- flameshot: Screenshot
+- spectacle: Screenshot
 - \*brave-browser: Secure Browser based on Chromium
 - \*code: Text/Code editor
 
