@@ -3,7 +3,7 @@
 - awesome: Window Manager written in LUA
 - alacritty: GPU accelerated terminal
 - rofi: Search menu
-- i3lock: Screenlocker
+- slock: Screenlocker
 - xautolock: Auto screenlocker
 - scrot: Screenshot tool CLI
 - ImageMagick: Modify images
@@ -51,12 +51,6 @@ Zsh:
 sudo dnf install util-linux-user
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 rm ~/.zshrc.pre-oh-my-zsh
-```
-
-i3lock/xautolock:
-
-```
-chmod +x ~/.config/i3lock/*
 ```
 
 ---

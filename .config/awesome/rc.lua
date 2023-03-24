@@ -68,7 +68,7 @@ local function run_once(cmd_arr)
     end
 end
 
-awful.util.spawn_with_shell("./.config/i3lock/autolock.sh")
+awful.util.spawn_with_shell("xautolock -detectsleep -time 5 -locker 'slock'")
 
 run_once({ "urxvtd", "unclutter -root" }) -- comma-separated entries
 
@@ -277,7 +277,7 @@ globalkeys = mytable.join(
               {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
-    awful.key({ altkey, "Control" }, "l", function () os.execute("./.config/i3lock/lock.sh") end,
+    awful.key({ altkey, "Control" }, "l", function () os.execute("slock") end,
               {description = "lock screen", group = "hotkeys"}),
 
     -- Show help
