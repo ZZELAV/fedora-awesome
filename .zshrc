@@ -97,4 +97,5 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias ip="ip -br -4 a"
+alias ip4="ip -br -4 a"
+alias dc="docker compose"
